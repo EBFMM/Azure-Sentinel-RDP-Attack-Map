@@ -1,4 +1,4 @@
-# Azure-Sentinel-RDP-Attack-Map
+# Azure Sentinel RDP Attack Map
 
 ![image](https://github.com/user-attachments/assets/81d9719e-a74d-4fda-bfc0-ffd59ddc8f07)
 
