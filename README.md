@@ -1,17 +1,17 @@
-# Azure Sentinel RDP Attack Map
+### Azure Sentinel RDP Attack Map
 
-### Objective
+## Objective
 
 TBD
 
 <img src="https://github.com/user-attachments/assets/81d9719e-a74d-4fda-bfc0-ffd59ddc8f07" width="450"/>
 
 
-### Skills Learned
+## Skills Learned
 
 - TBD
 
-### Tools Used
+## Tools Used
 
 - TBD
 
@@ -19,38 +19,38 @@ TBD
 ## Steps
 
 
-### Create Virtual Machine
+## Create Virtual Machine
 
 
 
-### Allow All Traffic Through Firewall
+## Allow All Traffic Through Firewall
 
 
 
-### Create Log Analytics Workspace & Connect To VM
+## Create Log Analytics Workspace & Connect To VM
 
 
 
-### Setup Azure Sentinel
+## Setup Azure Sentinel
 
 
 
 ### Log into VM with Remote Desktop (fail 1 logon) 
 
 
-### Turn Off Windows Firewall on VM
+## Turn Off Windows Firewall on VM
 <img src="https://github.com/user-attachments/assets/e4369f4f-7df4-437d-87a9-2a028750fe4a" width="300"/>
 
 
-### Retreive Powershell Script, Generate Geolocation API key and Run Script
+## Retreive Powershell Script, Generate Geolocation API key and Run Script
 
 
 
-### Create Custom Log in Log Analytics Workspace
+## Create Custom Log in Log Analytics Workspace
 
 
 
-### Extract Fields From Raw Custom Log Data
+## Extract Fields From Raw Custom Log Data
 
 
-### Setup Visual Map
+## Setup Visual Map
