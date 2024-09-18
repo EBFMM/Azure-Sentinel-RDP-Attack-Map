@@ -49,7 +49,7 @@ TBD
 ### Create Custom Log in Log Analytics Workspace
 <img src="https://github.com/user-attachments/assets/120c85d1-d7d3-4ea3-8c05-a43d0a8d6794" width="550">
 <img src="https://github.com/user-attachments/assets/cddabee8-6b7f-427c-96ab-4dda30c516e4" width="400"><br>
-TBD
+I start by collecting a sample log from script output on my VM. First, I ensure that the VM is connected to my Log Analytics Workspace through the Microsoft Monitoring Agent. This connection allows logs and data from my VM to be sent to the workspace. I save it as a .txt file. The next step is to head into the Azure portal and navigate to Log Analytics Workspace. From there, I select the workspace I’m working with and click on Custom Logs under the Settings section. I click Add to start the process of creating a custom log. I upload my sample log file, and the system analyzes it to help define the structure of the log data. Afterward, I name my custom log file with a unique identifier, MyCustomLog_CL. Now that my custom log is configured, data from my VM’s script output will start flowing into Log Analytics under the newly created custom log type. I can query the data using the custom log name in the KQL to analyze and visualize my logs as needed.
 
 
 
