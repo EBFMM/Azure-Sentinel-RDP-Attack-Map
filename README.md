@@ -1,11 +1,11 @@
 # Azure Sentinel RDP Attack Map
 
-<img src="https://github.com/user-attachments/assets/81d9719e-a74d-4fda-bfc0-ffd59ddc8f07" width="550"/>
-
-
-## Objective
+### Objective
 
 TBD
+
+<img src="https://github.com/user-attachments/assets/81d9719e-a74d-4fda-bfc0-ffd59ddc8f07" width="450"/>
+
 
 ### Skills Learned
 
