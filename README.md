@@ -38,7 +38,8 @@ TBD
 ### Log into VM with Remote Desktop (fail 1 logon) 
 
 
-### Turn Off Windows Firewall
+### Turn Off Windows Firewall on VM
+<img src="https://github.com/user-attachments/assets/e4369f4f-7df4-437d-87a9-2a028750fe4a" width="400"/>
 
 
 ### Retreive Powershell Script, Generate Geolocation API key and Run Script
