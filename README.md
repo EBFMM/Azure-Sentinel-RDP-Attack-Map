@@ -22,8 +22,6 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 
 ## Steps
 
-
-
 ### Create Virtual Machine
 
 
@@ -43,3 +41,19 @@ To remediate the vulnerability exploited on the remote system, several key secur
 
 ### Log into VM with Remote Desktop (fail 1 logon) 
 
+
+### Turn Off Windows Firewall
+
+
+### Retreive Powershell Script, Generate Geolocation API key and Run Script
+
+
+
+### Create Custom Log in Log Analytics Workspace
+
+
+
+### Extract Fields From Raw Custom Log Data
+
+
+### Setup Visual Map
