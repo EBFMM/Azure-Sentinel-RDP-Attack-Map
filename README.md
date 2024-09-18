@@ -21,9 +21,6 @@ TBD
 
 ### Create Virtual Machine
 
-gggggggg
-gggg
-gg
 
 
 ### Allow All Traffic Through Firewall
