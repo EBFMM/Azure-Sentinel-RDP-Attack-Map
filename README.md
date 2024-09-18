@@ -26,6 +26,8 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 ### Create Virtual Machine
 
 
+
+
 ### Allow All Traffic Through Firewall
 
 The specific vulnerability identified as ‘Samba username map script Command Execution’ was leveraged to exploit the target system remotely. This vulnerability results from a flaw in the handling of the username map script within Samba, which allows the unauthorized execution of arbitrary commands on the victim system. During the assessment, I utilized a Metasploit exploit module specifically designed for this vulnerability; this module “exploits a command execution vulnerability in Samba versions 3.0.20 through 3.0.25rc3 when using the non-default ‘username map script’ configuration option” (Rapid7, 2018). By using the Metasploit ‘multi/samba/usermap_script’ exploit module, a crafted payload was sent to the vulnerable Samba service, which executed a malicious shell command. Through this exploit, I was able to bypass existing authentication mechanisms and achieve root access on the victim machine.
