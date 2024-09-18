@@ -47,6 +47,11 @@ TBD
 
 
 ### Create Custom Log in Log Analytics Workspace
+<img src="https://github.com/user-attachments/assets/120c85d1-d7d3-4ea3-8c05-a43d0a8d6794" width="250">
+
+<img src="https://github.com/user-attachments/assets/cddabee8-6b7f-427c-96ab-4dda30c516e4" width="250">
+
+
 
 
 
