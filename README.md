@@ -2,6 +2,9 @@
 
 ![image](https://github.com/user-attachments/assets/81d9719e-a74d-4fda-bfc0-ffd59ddc8f07)
 
+<img src="https://github.com/user-attachments/assets/81d9719e-a74d-4fda-bfc0-ffd59ddc8f07" width="300"/>
+
+
 ## Objective
 
 The objective of this penetration test demo is to demonstrate the exploitation of a SMB (Server Message Block) vulnerability on the target system. The focus is to identify and exploit a weaknesses in this service, gaining unauthorized access, and successfully exfiltrating sensitive data. This demo highlights the critical risks associated with improperly secured network services and underscores the importance of robust security measures in protecting sensitive information from potential threats.
