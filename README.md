@@ -58,6 +58,6 @@ I start by collecting a sample log from script output on my VM. First, I ensure 
 
 
 ### Extract Fields From Raw Custom Log Data
-
+![honey13](https://github.com/user-attachments/assets/f6df14f4-5af5-4862-bf9d-63bba71be625)
 
 ### Setup Visual Map
