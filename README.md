@@ -61,3 +61,5 @@ I start by collecting a sample log from script output on my VM. First, I ensure 
 ![honey13](https://github.com/user-attachments/assets/f6df14f4-5af5-4862-bf9d-63bba71be625)
 
 ### Setup Visual Map
+![honey15](https://github.com/user-attachments/assets/2d4dfe67-d94b-4bb5-b5d1-2f7fa8cc5535)
+![honey16](https://github.com/user-attachments/assets/c03992b2-dba5-4111-93ef-813a4b8b72a6)
