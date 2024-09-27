@@ -32,7 +32,7 @@ TBD
 
 
 ### Setup Azure Sentinel
-
+![honey3](https://github.com/user-attachments/assets/97e492de-e232-4706-a1fe-70266160bc78)
 
 
 ### Log into VM with Remote Desktop (fail 1 logon) 
