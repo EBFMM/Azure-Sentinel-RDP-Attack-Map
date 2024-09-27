@@ -28,7 +28,7 @@ TBD
 
 
 ### Create Log Analytics Workspace & Connect To VM
-
+![honey1](https://github.com/user-attachments/assets/421cd8f0-b3f9-461b-a2e2-b355536d4f8f)
 
 
 ### Setup Azure Sentinel
