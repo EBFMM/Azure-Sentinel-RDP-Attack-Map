@@ -36,7 +36,8 @@ TBD
 
 
 ### Log into VM with Remote Desktop (fail 1 logon) 
-
+![honey4](https://github.com/user-attachments/assets/c5fd7b3c-1e7e-4b75-9a07-796c117ca67f)
+![honeyfail](https://github.com/user-attachments/assets/3cc1865c-da2e-4c11-9f84-a016a27c2796)
 
 ### Turn Off Windows Firewall on VM
 <img src="https://github.com/user-attachments/assets/e4369f4f-7df4-437d-87a9-2a028750fe4a" width="300"/>
