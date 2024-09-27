@@ -66,5 +66,3 @@ I start by collecting a sample log from script output on my VM. First, I ensure 
 ![honey15](https://github.com/user-attachments/assets/2d4dfe67-d94b-4bb5-b5d1-2f7fa8cc5535)
 ![honey16](https://github.com/user-attachments/assets/c03992b2-dba5-4111-93ef-813a4b8b72a6)
 
-### Update
-![honey17](https://github.com/user-attachments/assets/eae72d3a-c382-4e39-96ba-b5fe49829033)
