@@ -21,7 +21,7 @@ TBD
 
 ### Create Virtual Machine
 ![honey8](https://github.com/user-attachments/assets/dccd6a7e-33a6-4ecc-9db7-f4c06f90cf0d)
-
+The first step I took was setting up a VM in Azure portal. Navigate to the "Virtual Machines" section. From there, I clicked on "Create" and chose "Virtual Machine." I configured the VM by selecting the appropriate subscription, creating a new resource group for better organization, and choosing a region close to my location for optimal performance. For the operating system, I picked a Windows Server image, since I'll be using RDP to simulate the attacks.
 
 ### Allow All Traffic Through Firewall
 ![honey18](https://github.com/user-attachments/assets/4126c9ba-6cb9-4ed6-bf13-fbee37fb1f44)
