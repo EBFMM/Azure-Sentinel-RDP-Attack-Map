@@ -29,11 +29,13 @@ The next step is to configure the firewall to allow all incoming traffic. I star
 
 
 ### Create Log Analytics Workspace & Connect To VM
-The next step is to create a log analytics workspace and connect it to the virtual machine. I navigated to the "Log Analytics Workspaces" section in the Azure portal then clicked "Create." I selected the same resource group as my VM, gave the workspace a name and region. Adding this workspace is crucial because it allows me to centralize logs and data from the VM for real-time analysis in Azure Sentinel. The workspace streamlines monitoring, making it easier to detect anomalies and suspicious activity.
+
 ![honey1](https://github.com/user-attachments/assets/421cd8f0-b3f9-461b-a2e2-b355536d4f8f)
+The next step is to create a log analytics workspace and connect it to the virtual machine. I navigated to the "Log Analytics Workspaces" section in the Azure portal then clicked "Create." I selected the same resource group as my VM, gave the workspace a name and region. Adding this workspace is crucial because it allows me to centralize logs and data from the VM for real-time analysis in Azure Sentinel. The workspace streamlines monitoring, making it easier to detect anomalies and suspicious activity.
 <br><br>
-Once the workspace was created, I went to the VM’s "Extensions" tab and added the "Log Analytics Agent" extension. During the setup, I linked the agent to the Log Analytics Workspace I just created by providing the workspace ID and key. This connection allows the VM to send security and performance data directly to Azure Sentinel through the workspace, enabling me to monitor and detect any suspicious RDP activity.
+
 ![honey19](https://github.com/user-attachments/assets/a27ab84d-cab9-4938-b872-e6ed340e95a3)
+Once the workspace was created, I went to the VM’s "Extensions" tab and added the "Log Analytics Agent" extension. During the setup, I linked the agent to the Log Analytics Workspace I just created by providing the workspace ID and key. This connection allows the VM to send security and performance data directly to Azure Sentinel through the workspace, enabling me to monitor and detect any suspicious RDP activity.
 
 
 ### Setup Azure Sentinel
