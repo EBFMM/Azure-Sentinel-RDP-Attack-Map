@@ -25,7 +25,7 @@ The first step I took was setting up a VM in Azure portal. Navigate to the "Virt
 
 ### Allow All Traffic Through Firewall
 ![honey18](https://github.com/user-attachments/assets/4126c9ba-6cb9-4ed6-bf13-fbee37fb1f44)
-
+The next step is to configure the firewall to allow all incoming traffic. I started by going to the "Networking" tab in the Azure portal for the VM and clicked on the “Inbound port rules” section. Here, I modified the security group settings to ensure that the firewall wouldn’t block any traffic by creating a new inbound rule that allows all traffic by selecting "Any" for both the source and destination IPs, as well as for the protocol (TCP/UDP). I set the priority to a lower number to ensure that this rule would take precedence over any other rules. This setup will allow any type of network traffic to reach the VM, which is necessary for testing and simulating attack scenarios that Azure Sentinel can detect/log.
 
 
 ### Create Log Analytics Workspace & Connect To VM
