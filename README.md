@@ -31,9 +31,9 @@ The next step is to configure the firewall to allow all incoming traffic. I star
 ### Create Log Analytics Workspace & Connect To VM
 
 ![honey1](https://github.com/user-attachments/assets/421cd8f0-b3f9-461b-a2e2-b355536d4f8f)
+<br><br>
 The next step is to create a log analytics workspace and connect it to the virtual machine. I navigated to the "Log Analytics Workspaces" section in the Azure portal then clicked "Create." I selected the same resource group as my VM, gave the workspace a name and region. Adding this workspace is crucial because it allows me to centralize logs and data from the VM for real-time analysis in Azure Sentinel. The workspace streamlines monitoring, making it easier to detect anomalies and suspicious activity.
 <br><br>
-
 ![honey19](https://github.com/user-attachments/assets/a27ab84d-cab9-4938-b872-e6ed340e95a3)
 Once the workspace was created, I went to the VM’s "Extensions" tab and added the "Log Analytics Agent" extension. During the setup, I linked the agent to the Log Analytics Workspace I just created by providing the workspace ID and key. This connection allows the VM to send security and performance data directly to Azure Sentinel through the workspace, enabling me to monitor and detect any suspicious RDP activity.
 
@@ -41,6 +41,7 @@ Once the workspace was created, I went to the VM’s "Extensions" tab and added 
 ### Setup Azure Sentinel
 ![honey3](https://github.com/user-attachments/assets/97e492de-e232-4706-a1fe-70266160bc78)
 The next step was to enable Azure Sentinel and configure it to collect all necessary data from the virtual machine. I started by navigating to the 'Azure Sentinel' in the Azure portal and clicked "Add" to create a new instance. I selected the log analytics workspace I had set up earlier, as this is where Sentinel would pull the data from.
+<br><br>
 ![honey2](https://github.com/user-attachments/assets/cc37f432-c32c-480d-9b8b-885463cd44f7)
 During this setup, I ensured that "All Events" was checked under data collection tab, as this would allow Sentinel to collect every type of event from the VM, including RDP login attempts, process executions, and other critical security events.
 
