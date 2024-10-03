@@ -48,6 +48,8 @@ During this setup, I ensured that "All Events" was checked under data collection
 ### Log into VM with Remote Desktop (fail 1 logon) 
 ![honey4](https://github.com/user-attachments/assets/c5fd7b3c-1e7e-4b75-9a07-796c117ca67f)
 ![honeyfail](https://github.com/user-attachments/assets/3cc1865c-da2e-4c11-9f84-a016a27c2796)
+<br><br>
+I opened the Remote Desktop Connection app on my local machine and entered the public IP address of the VM. For the test, I purposely entered incorrect login credentials to generate failed login events for documentation and ensuring the data was being correctly logged. After attempting the failed login, I accessed the VM’s Event Viewer by logging in with correct credentials and navigating to Windows Logs > Security. I located the event ID 4625 associated with the failed logon attempt, which provided detailed information about the login failure, including the time, username, and source IP address. 
 
 ### Turn Off Windows Firewall on VM
 <img src="https://github.com/user-attachments/assets/e4369f4f-7df4-437d-87a9-2a028750fe4a" width="300"/>
