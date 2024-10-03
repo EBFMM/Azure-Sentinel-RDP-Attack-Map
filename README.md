@@ -40,7 +40,9 @@ Once the workspace was created, I went to the VM’s "Extensions" tab and added 
 
 ### Setup Azure Sentinel
 ![honey3](https://github.com/user-attachments/assets/97e492de-e232-4706-a1fe-70266160bc78)
+The next step was to enable Azure Sentinel and configure it to collect all necessary data from the virtual machine. I started by navigating to the 'Azure Sentinel' in the Azure portal and clicked "Add" to create a new instance. I selected the log analytics workspace I had set up earlier, as this is where Sentinel would pull the data from.
 ![honey2](https://github.com/user-attachments/assets/cc37f432-c32c-480d-9b8b-885463cd44f7)
+During this setup, I ensured that "All Events" was checked under data collection tab, as this would allow Sentinel to collect every type of event from the VM, including RDP login attempts, process executions, and other critical security events.
 
 ### Log into VM with Remote Desktop (fail 1 logon) 
 ![honey4](https://github.com/user-attachments/assets/c5fd7b3c-1e7e-4b75-9a07-796c117ca67f)
