@@ -11,7 +11,7 @@ My objective is to demonstrate how to leverage Azure Sentinel’s capabilities t
 
 - Data Visualization in Azure Sentinel Workbooks
 - KQL Querying
-- 
+- Custom Detection Rules in Azure Sentinel
 
 ### Tools Used
 
