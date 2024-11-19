@@ -17,7 +17,7 @@ My objective is to demonstrate how to leverage Azure Sentinel’s capabilities t
 
 - Azure Sentinel
 - geolocation.io API integration
-- 
+- Powershell
   
 
 
