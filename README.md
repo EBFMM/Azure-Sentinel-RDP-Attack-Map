@@ -21,10 +21,12 @@ TBD
 
 ### Create Virtual Machine
 ![honey8](https://github.com/user-attachments/assets/dccd6a7e-33a6-4ecc-9db7-f4c06f90cf0d)
+<br><br>
 The first step I took was setting up a VM in Azure portal. Navigate to the "Virtual Machines" section. From there, I clicked on "Create" and chose "Virtual Machine." I configured the VM by selecting the appropriate subscription, creating a new resource group for better organization, and choosing a region close to my location for optimal performance. For the operating system, I picked a Windows Server image, since I'll be using RDP to simulate the attacks.
 
 ### Allow All Traffic Through Firewall
 ![honey18](https://github.com/user-attachments/assets/4126c9ba-6cb9-4ed6-bf13-fbee37fb1f44)
+<br><br>
 The next step is to configure the firewall to allow all incoming traffic. I started by going to the "Networking" tab in the Azure portal for the VM and clicked on the “Inbound port rules” section. Here, I modified the security group settings to ensure that the firewall wouldn’t block any traffic by creating a new inbound rule that allows all traffic by selecting "Any" for both the source and destination IPs, as well as for the protocol (TCP/UDP). I set the priority to a lower number to ensure that this rule would take precedence over any other rules. This setup will allow any type of network traffic to reach the VM, which is necessary for testing and simulating attack scenarios that Azure Sentinel can detect/log.
 
 
@@ -53,21 +55,20 @@ I opened the Remote Desktop Connection app on my local machine and entered the p
 
 ### Turn Off Windows Firewall on VM
 <img src="https://github.com/user-attachments/assets/e4369f4f-7df4-437d-87a9-2a028750fe4a" width="300"/>
-
+<br><br>
 Turning off Windows Firewall on a VM while capturing a live cyber attack demo, allows me to demonstrate true vulnerabilities without the interference of built-in security mechanisms. The firewall is designed to block unauthorized network traffic, which could prevent certain attack vectors from being executed successfully during the demo. By disabling it, I showcase the behavior of unprotected systems and how attackers exploit weak or misconfigured security settings. This setup helps in illustrating the importance of proper security controls and provides a controlled environment for observing real-time attack tactics, tools, and impact. 
 
 ### Retreive Powershell Script, Generate Geolocation API key and Run Custom Script
 ![honey9](https://github.com/user-attachments/assets/5ae0ae50-171f-4965-bf9b-aa7302d56564)
+<br><br>
+I demonstrate how to enrich RDP session data by integrating geolocation information. I sourced a community-shared, open-source PowerShell script, which utilizes the geolocation.io API to map IP addresses to geographic locations. After generating an API key from geolocation.io, I show how to run the script to automatically query the service and enrich raw log data with valuable location details, such as country, city, and latitude/longitude. This step adds context to RDP session logs, helping to identify suspicious logins from unusual or high-risk locations, thus enhancing threat detection in Azure Sentinel. Using community-driven resources like this script showcases the power of open-source tools in building effective security solutions.
 
 
 ### Create Custom Log in Log Analytics Workspace
 <img src="https://github.com/user-attachments/assets/120c85d1-d7d3-4ea3-8c05-a43d0a8d6794" width="550">
-<img src="https://github.com/user-attachments/assets/cddabee8-6b7f-427c-96ab-4dda30c516e4" width="400"><br>
-
+<img src="https://github.com/user-attachments/assets/cddabee8-6b7f-427c-96ab-4dda30c516e4" width="400">
+<br><br>
 I start by collecting a sample log from script output on my VM. First, I ensure that the VM is connected to my Log Analytics Workspace through the Microsoft Monitoring Agent. This connection allows logs and data from my VM to be sent to the workspace. I save it as a .txt file. The next step is to head into the Azure portal and navigate to Log Analytics Workspace. From there, I select the workspace I’m working with and click on Custom Logs under the Settings section. I click Add to start the process of creating a custom log. I upload my sample log file, and the system analyzes it to help define the structure of the log data. Afterward, I name my custom log file with a unique identifier, MyCustomLog_CL. Now that my custom log is configured, data from my VM’s script output will start flowing into Log Analytics under the newly created custom log type. I can query the data using the custom log name in the KQL to analyze and visualize my logs as needed.
-
-
-
 
 
 ### Extract Fields From Raw Custom Log Data
