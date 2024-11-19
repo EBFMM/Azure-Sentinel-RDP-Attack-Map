@@ -15,9 +15,10 @@ My objective is to demonstrate how to leverage Azure Sentinel’s capabilities t
 
 ### Tools Used
 
-- TBD
-- k
+- Azure Sentinel
+- geolocation.io API integration
 - 
+  
 
 
 ## Steps
