@@ -9,11 +9,15 @@ My objective is to demonstrate how to leverage Azure Sentinel’s capabilities t
 
 ### Skills Learned
 
-- TBD
+- Data Visualization in Azure Sentinel Workbooks
+- k
+- 
 
 ### Tools Used
 
 - TBD
+- k
+- 
 
 
 ## Steps
