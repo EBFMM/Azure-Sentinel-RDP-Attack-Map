@@ -73,6 +73,8 @@ I start by collecting a sample log from script output on my VM. First, I ensure 
 ### Extract Fields From Raw Custom Log Data
 ![honey13](https://github.com/user-attachments/assets/f6df14f4-5af5-4862-bf9d-63bba71be625)
 
+ Following, I demonstrate how to parse and extract relevant fields from raw log data collected from RDP sessions. Using KQL, I identify key attributes like user IDs, IP addresses, login times, and session states. This step is crucial for transforming unstructured log data into structured fields that can be easily queried and visualized, enabling us to detect suspicious activity or potential RDP attack patterns. The extracted fields serve as the foundation for building more complex detection rules and alerting mechanisms within Azure Sentinel.
+
 ### Setup Visual Map
 ![honey15](https://github.com/user-attachments/assets/2d4dfe67-d94b-4bb5-b5d1-2f7fa8cc5535)
 ![honey16](https://github.com/user-attachments/assets/c03992b2-dba5-4111-93ef-813a4b8b72a6)
