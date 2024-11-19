@@ -2,9 +2,9 @@
 
 ## Objective
 
-TBD
+My objective is to demonstrate how to leverage Azure Sentinel’s capabilities to detect, visualize, and analyze potential security threats related to Remote Desktop Protocol (RDP) sessions. By setting up custom queries and visualizations within Sentinel Workbooks, the goal is to empower security professionals with actionable insights that help identify suspicious login activities and potential attack vectors.
 
-<img src="https://github.com/user-attachments/assets/81d9719e-a74d-4fda-bfc0-ffd59ddc8f07" width="450"/>
+<img src="https://github.com/user-attachments/assets/81d9719e-a74d-4fda-bfc0-ffd59ddc8f07" width="650"/>
 
 
 ### Skills Learned
