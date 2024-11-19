@@ -10,7 +10,7 @@ My objective is to demonstrate how to leverage Azure Sentinel’s capabilities t
 ### Skills Learned
 
 - Data Visualization in Azure Sentinel Workbooks
-- k
+- KQL Querying
 - 
 
 ### Tools Used
