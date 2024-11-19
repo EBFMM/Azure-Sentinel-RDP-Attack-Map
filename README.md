@@ -77,6 +77,8 @@ I start by collecting a sample log from script output on my VM. First, I ensure 
  Following, I demonstrate how to parse and extract relevant fields from raw log data collected from RDP sessions. Using KQL, I identify key attributes like user IDs, IP addresses, login times, and session states. This step is crucial for transforming unstructured log data into structured fields that can be easily queried and visualized, enabling us to detect suspicious activity or potential RDP attack patterns. The extracted fields serve as the foundation for building more complex detection rules and alerting mechanisms within Azure Sentinel.
 
 ### Setup Visual Map
-![honey15](https://github.com/user-attachments/assets/2d4dfe67-d94b-4bb5-b5d1-2f7fa8cc5535)
-![honey16](https://github.com/user-attachments/assets/c03992b2-dba5-4111-93ef-813a4b8b72a6)
+<img src="https://github.com/user-attachments/assets/2d4dfe67-d94b-4bb5-b5d1-2f7fa8cc5535" width="950"/>
+<img src="https://github.com/user-attachments/assets/c03992b2-dba5-4111-93ef-813a4b8b72a6" width="950"/>
+<br><br>
+Within Microsoft Sentinel Workbooks, I walk through how to create a visual representation of RDP session data on a map. Using the data enriched with geolocation information, I configure a dynamic map visualization that plots the physical locations of RDP logins based on IP address data. I demonstrate how to customize the map to display session details, such as login times, user IDs, and location coordinates, in an interactive format. This step helps stakeholders quickly identify patterns of suspicious logins from high-risk or unusual geographic regions, making it easier to spot potential threats in real-time.
 
